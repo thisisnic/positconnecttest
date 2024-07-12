@@ -1214,12 +1214,12 @@
       }
     },
     "stringi": {
-      "Source": "github",
-      "Repository": null,
+      "Source": "binary",
+      "Repository": "https://packagemanager.rstudio.com/all/latest",
       "description": {
         "Package": "stringi",
-        "Version": "1.8.4.9001",
-        "Date": "2024-06-13",
+        "Version": "1.8.4",
+        "Date": "2024-05-06",
         "Title": "Fast and Portable Character String Processing Facilities",
         "Description": "A collection of character string/text/natural language\n    processing tools for pattern searching (e.g., with 'Java'-like regular\n    expressions or the 'Unicode' collation algorithm), random string generation,\n    case mapping, string transliteration, concatenation, sorting, padding,\n    wrapping, Unicode normalisation, date-time formatting and parsing,\n    and many more. They are fast, consistent, convenient, and -\n    thanks to 'ICU' (International Components for Unicode) -\n    portable across all locales and platforms. Documentation about 'stringi' is\n    provided via its website at <https://stringi.gagolewski.com/> and\n    the paper by Gagolewski (2022, <doi:10.18637/jss.v103.i02>).",
         "URL": "https://stringi.gagolewski.com/,\nhttps://github.com/gagolews/stringi, https://icu.unicode.org/",
@@ -1234,19 +1234,12 @@
         "Maintainer": "Marek Gagolewski <marek@gagolewski.com>",
         "RoxygenNote": "7.2.3",
         "Encoding": "UTF-8",
-        "RemoteType": "github",
-        "RemoteHost": "api.github.com",
-        "RemoteRepo": "stringi",
-        "RemoteUsername": "gagolews",
-        "RemoteRef": "HEAD",
-        "RemoteSha": "7d1074693d804714bd93a6927fb5239d18a104cb",
-        "GithubRepo": "stringi",
-        "GithubUsername": "gagolews",
-        "GithubRef": "HEAD",
-        "GithubSHA1": "7d1074693d804714bd93a6927fb5239d18a104cb",
         "NeedsCompilation": "yes",
-        "Packaged": "2024-07-03 21:13:32 UTC; nic",
-        "Built": "R 4.4.1; x86_64-pc-linux-gnu; 2024-07-03 21:13:39 UTC; unix"
+        "Packaged": "2024-05-06 12:50:25 UTC; gagolews",
+        "License_is_FOSS": "yes",
+        "Repository": "RSPM",
+        "Date/Publication": "2024-05-06 15:00:02 UTC",
+        "Built": "R 4.4.0; x86_64-pc-linux-gnu; 2024-05-07 04:04:59 UTC; unix"
       }
     },
     "tibble": {
