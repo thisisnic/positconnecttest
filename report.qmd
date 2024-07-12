@@ -21,6 +21,7 @@ Click the **Code** button in the header to see the full source code of this docu
 Here we call the R `summary()` function---the function's output is included immediately below:
 
 ```{r}
+library(stringi)
 summary(cars)
 ```
 
